@@ -77,6 +77,7 @@ btnDelete.addEventListener(`click`,deletetable())
 
 function deletetable(){
 
+    localStorage.removeItem(`arr`)
     document.getElementById("list").innerHTML = "";
 console.log(array)
 
