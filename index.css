@@ -1,0 +1,58 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+/* background-image: url(./Images/33ef8b9c0b902154a6cd4103a21275ef.jpg); */
+height: 90vh ;
+background-image:linear-gradient(rgb(0, 0, 0 , 0.4), rgba(0, 0, 0, 0.7)) ,url("./Images/food-background-images-94-images-in-co-381169-png-images-pngio-food-background-png-1440_619.webp");
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+div{
+    border: 1px solid #E8A686;
+    margin: 7% 25% ;
+    text-align: center;
+    width: 50%;
+    padding: 1%;
+    box-shadow: 5px 8px 10px #E8A686
+    ;
+    background-color: white
+    ;
+    line-height: 3;
+    border-radius: 50px;
+}
+
+h2{
+color:#7F5D85
+;
+}
+
+input {
+    width: 60%;
+    border-radius: 7px;
+    /* text-align: center; */
+    padding: 10px;
+}
+
+button{
+    width: 60%;
+    background-color: #BF86AE
+    ;
+    border-radius: 7px;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+button :hover{
+    opacity: 0.7;
+}
+
+
+
+
+

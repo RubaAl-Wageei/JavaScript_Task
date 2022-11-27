@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Task</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+
+        <h2>CREATE AN ACCOUNT</h2>
+
+        <form action="./login.html">
+            <input type="text" id="username" placeholder="Enter Your Name">
+            <p class="error" id="errName"></p>
+
+            <input type="Email" id="email" placeholder="Enter Your Email">
+            <p class="error" id="errEmail"></p>
+
+            <input type="password" id="password" placeholder="Enter Your Password">
+            <p class="error" id="match"></p>
+
+            <input type="password" id="repassword" placeholder="Repeat Your Password">
+            <p class="error" id="match"></p>
+
+            <button type="submit" onclick="logSubmit()" >Sign up</button>
+        </form>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

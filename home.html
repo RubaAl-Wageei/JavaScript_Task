@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div>
+                <label>Customer Name:</label>
+                <input type="text" id="inputName"/>
+            </div>
+            <div>
+                <label>Your Order:</label>
+                <select id="select">
+                    <option value="Fettuccine">Fettuccine</option>
+                    <option value="Steak">Steak</option>
+                    <option value="Cheesecake">Cheesecake</option>
+                </select>
+            </div>
+            <div>
+                <button id="saveData" >ask for cheif</button>
+            </div>
+        </form>
+        <div id="btnn">
+            <button onclick="deletetable()" id="delete" >delete content</button>
+
+            <button onclick="deleteLocal()" id="delete" >delete local storage</button>
+
+        </div>
+        <div id="list"></div>
+      </div>
+
+      <script src="home.js"></script>
+</body>
+</html>

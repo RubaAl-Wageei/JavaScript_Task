@@ -1,0 +1,53 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+/* background-image: url(./Images/33ef8b9c0b902154a6cd4103a21275ef.jpg); */
+height: 90vh ;
+background-image:linear-gradient(rgb(0, 0, 0 , 0.4), rgba(0, 0, 0, 0.7)) ,url("./Images/greek-food-background-traditional-different-greek-dishes-set-greek-food-background-traditional-different-greek-dishes-set-top-view-178761927.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+div{
+    border: 1px solid #E8A686;
+    margin: 7% 25% ;
+    text-align: center;
+    width: 50%;
+    padding: 1%;
+    box-shadow: 5px 8px 10px #E8A686
+    ;
+    background-color: white
+    ;
+    line-height: 3;
+    border-radius: 50px;
+    height: 350px;
+}
+
+form{
+    margin-top: 50px;
+}
+
+input {
+    width: 60%;
+    border-radius: 7px;
+    /* text-align: center; */
+    padding: 10px;
+}
+
+button{
+    width: 60%;
+    background-color: #BF86AE
+    ;
+    border-radius: 7px;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+button :hover{
+    opacity: 0.7;
+}
